@@ -5,10 +5,11 @@
 
 /**
  *
- * @author stud_17
+ * @author Stud_5
  */
 public interface FlyBehavior {
-    public void fly ();
+     public void fly ();
 }
 
         
+    

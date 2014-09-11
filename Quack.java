@@ -5,7 +5,7 @@
 
 /**
  *
- * @author stud_17
+ * @author Stud_5
  */
 public class Quack implements QuackBehavior {
     @Override

@@ -5,9 +5,10 @@
 
 /**
  *
- * @author stud_17
+ * @author Stud_5
  */
-    public class Squeak implements QuackBehavior {
+
+     public class Squeak implements QuackBehavior {
     public void quack() {
         System.out.println("Squeak");
     }
@@ -18,3 +19,5 @@
     }
 }
     
+
+

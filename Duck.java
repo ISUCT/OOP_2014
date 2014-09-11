@@ -3,10 +3,9 @@
  * and open the template in the editor.
  */
 
-
 /**
  *
- * @author stud_17
+ * @author Stud_5
  */
 public abstract class Duck {
     FlyBehavior flyBehavior;
@@ -28,29 +27,28 @@ public abstract class Duck {
         System.out.println ("All ducks float, even decoys!");
         
     }
-    
-}
-public void setFlyBehavior(FlyBehavior fb) {
+
+    void setFlyBehavior(FlyRocketPowered flyRocketPowered) {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
+   public void setFlyBehavior(FlyBehavior fb) {
 flyBehavior = fb;
 }
 
 public void setQuackBehavior (QuackBehavior gb) {
-quackBehavior = qb;
+quackBehavior = gb;
 
+} 
+
+    void performFly() {
+        throw new UnsupportedOperationException("Not yet implemented");
+    }
 }
+
+
+
     
 
 
 
-        
     
-    
-
-
-
-
-
-
-   
-
-

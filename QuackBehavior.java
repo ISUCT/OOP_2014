@@ -5,7 +5,7 @@
 
 /**
  *
- * @author stud_17
+ * @author Stud_5
  */
 public interface QuackBehavior {
         public void guack();
@@ -13,4 +13,7 @@ public interface QuackBehavior {
     public void quack();
 
 }
+
+
+
 
